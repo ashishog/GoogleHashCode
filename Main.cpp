@@ -2,5 +2,6 @@
 #include<stdio.h>
 void main()
 {
-  int A,I,i;
+  int D,I,S,V,F,i;
+  
   
