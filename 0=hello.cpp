@@ -15,4 +15,5 @@ int main()
     gets(Pizza1[j]);
     cout<<"\n\n";
   funcomp(Pizza0,Pizza1)  
+    Cout<<"Hello ANPIKUAS";
 }
