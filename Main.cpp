@@ -14,8 +14,8 @@ int main()
     for(int i=0;i<S;i++)
     {
         cout<<"\n";
-        cin>>st[i].B>>st[i].E;
-        gets(st[i].str1);
+        cin.get(st[i].B>>st[i].E);
+        cin.gets(st[i].str1);
         cin>>st[i].L;
         cout<<"\n";
     }
