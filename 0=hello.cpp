@@ -7,7 +7,6 @@ int main()
 {
   int i,j;
   char Pizza0[3][10],Pizza1[3][10];
-  cin>>std1;
   for(i=0;i<3;i++)
     gets(Pizza0[i]);
     cout<<"\n\n";
