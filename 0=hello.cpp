@@ -22,9 +22,7 @@ int main()
 int main()
 {
     char sName[28];
-    cin>>sName;      //Get the name of the student to be searched
-
-      /// Reading the tables
+    cin>>sName;    
 
     ifstream in("students.bin", ios::in | ios::binary);
 
