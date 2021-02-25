@@ -19,20 +19,4 @@ int main()
 }
 
 
-int main()
-{
-    char sName[28];
-    cin>>sName;    
 
-    ifstream in("students.bin", ios::in | ios::binary);
-
-    student Student; //This is a struct
-
-    while (in.read((char*) &Student, sizeof(student)))
-    {
-    if(sName==Student.name)//Student.name is also a char[28]
-    {
-                cout<<"found"<<endl;
-        break;
-    }
-}
