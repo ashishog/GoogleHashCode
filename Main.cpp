@@ -14,9 +14,7 @@ int main()
     for(int i=0;i<S;i++)
     {
         cout<<"\n";
-        cin.get(st[i].B>>st[i].E);
-        cin.gets(st[i].str1);
-        cin>>st[i].L;
+        cin.get(st[i].B)>>(st[i].E)>>(st[i].str1)>>st[i].L;
         cout<<"\n";
     }
         return 0;
