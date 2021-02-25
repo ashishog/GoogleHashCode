@@ -1,24 +1,28 @@
 #include<iostream>
+#include<ctype.h>
 #include<stdio.h>
+#include<string>
 using namespace std;
 struct street
 {
  int B,E,L;
- char str1[10000];
+ char *str1;
 };
 int main()
 {
     long long int D,I,S,V,F;
-    cin>>S>>I>>D>>V>>F;
-    struct street st[S];
-    for(int i=0;i<S;i++)
+    cin>>D>>I>>S>>V>>F;
+    struct street st[5];
+    for(int i=0;i<5;i++)
     {
-        cout<<"\n";
-        cin.get(st[i].B)>>(st[i].E)>>(st[i].str1)>>(st[i].L);
-        cout<<"\n";
+        cin>>st[i].B;
+        cin>>st[i].E;
+        gets(st[i].str1);
+        cin>>st[i].L;
     }
         return 0;
 }
+
 
   
   
