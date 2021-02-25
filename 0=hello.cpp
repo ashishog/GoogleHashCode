@@ -3,7 +3,6 @@
 #include<stdio.h>
 using namespace std;
 int main()
-int main()
 {
   int i,j,p,cnt=0;
   char Pizza0[3][10],Pizza1[3][10];
