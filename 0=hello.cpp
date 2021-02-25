@@ -27,10 +27,10 @@ void compareOperation(string s1, string s2)
 { 
 
 	if((s1.compare(0, 5, s2, 3, 5)) == 0) 
-		cout << "Welcome " << s1 << " " <<s2 << " Bro"; 
+		cout << "1"; 
 
 	else
-		cout << "Strings didn't match "; 
+		cout << "0 "; 
 } 
  int main() 
 { 
