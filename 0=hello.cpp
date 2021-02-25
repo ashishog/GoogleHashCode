@@ -2,6 +2,7 @@
 #include<string.h>
 #include<stdio.h>
 using namespace std;
+
 int main()
 {
   int i,j,p,cnt=0;
@@ -35,6 +36,34 @@ void compareOperation(string s1, string s2)
 { 
 	string s1("Piyush"); 
 	string s2("yooPiyush"); 
+	compareOperation(s1, s2); 
+	
+return 0; 
+} 
+
+
+
+
+
+
+#include<iostream> 
+using namespace std; 
+
+void compareOperation(string s1, string s2) 
+{ 
+
+	if((s1.compare(0, 3, s2, 0, 3)) == 0) 
+		cout << "Welcome " << s1 << " " <<s2 << " Bro"; 
+
+	else
+		cout << "Strings didn't match "; 
+} 
+
+int main() {
+   string s1;
+   string s2;
+   cin>>s1;
+   cin>>s2;
 	compareOperation(s1, s2); 
 	
 return 0; 
