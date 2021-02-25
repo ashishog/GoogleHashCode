@@ -17,3 +17,24 @@ int main()
   funcomp(Pizza0,Pizza1)  
     cout<<"Hello ANPIKUAS";
 }
+
+
+int main()
+{
+    char sName[28];
+    cin>>sName;      //Get the name of the student to be searched
+
+      /// Reading the tables
+
+    ifstream in("students.bin", ios::in | ios::binary);
+
+    student Student; //This is a struct
+
+    while (in.read((char*) &Student, sizeof(student)))
+    {
+    if(sName==Student.name)//Student.name is also a char[28]
+    {
+                cout<<"found"<<endl;
+        break;
+    }
+}
