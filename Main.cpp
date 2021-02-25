@@ -9,7 +9,7 @@ struct street
 int main()
 {
     long long int D,I,S,V,F;
-    cin>>D>>I>>S>>V>>F;
+    cin>>S>>I>>D>>V>>F;
     struct street st[S];
     for(int i=0;i<S;i++)
     {
